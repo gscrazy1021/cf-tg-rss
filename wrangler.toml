@@ -3,7 +3,7 @@ main = "src/worker.js"
 compatibility_date = "2025-09-29"
 
 [env.production]
-account_id = "你的AccountID"
+account_id = "1b31ede3818641757b792ec3f8d6f06e"
 workers_dev = true                      # 如用自定义域名可关
 
 [[r2_buckets]]
