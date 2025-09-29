@@ -1,0 +1,11 @@
+name = "tg-rss-worker"
+main = "src/worker.js"
+compatibility_date = "2025-09-29"
+
+[env.production]
+account_id = "你的AccountID"
+workers_dev = true                      # 如用自定义域名可关
+
+[[r2_buckets]]
+binding = "BUCKET"
+bucket_name = "tg-rss-bucket"
